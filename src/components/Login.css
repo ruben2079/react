@@ -1,0 +1,59 @@
+
+#landing-page {
+  background-image: url(https://cdn.goreadymade.com/ml/homepage/MainImage-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat,repeat;
+  min-height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 680px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.inner-container {
+  padding: 35px 50px 50px;
+}
+
+.login {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.login input {
+  width: calc(100% - 24px);
+  padding: 6px 12px;
+  margin-bottom: 10px;
+  border: 1px solid #dbdcde;
+  line-height: 1.28571;
+}
+
+.login input[type="submit"] {
+  height: 40px;
+  padding: .5rem 1rem;
+  color: #fff;
+  border-radius: 0;
+  border: 1px solid transparent;
+  font-size: 16px;
+  width: 100%;
+  font-weight: 700;
+  background-color: #32d694;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.login form label {
+  text-align: left;
+  width: 100%;
+  margin-bottom: 5px;
+  border: 0;
+  display: block;
+  font-size: 14px;
+  color: rgba(0,0,0,.4)
+}
+#recipes-container {
+  display: none;
+}

@@ -1,0 +1,16 @@
+.heart {
+  cursor: pointer;
+  font-size: 30px;
+  float: right;
+  margin-right: 10px;
+}
+
+.heart:before {
+  content: "\2661";
+  color: #25B169;
+}
+
+.heart.toggled:before{
+  content: "\2665";
+  color: #25B169;
+}
